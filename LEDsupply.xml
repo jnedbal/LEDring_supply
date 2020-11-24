@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jakub/KiCAD/LEDsupply/LEDsupply.sch</source>
+    <date>Tue 24 Nov 2020 17:46:42 GMT</date>
+    <tool>Eeschema 5.1.8-db9833491~87~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LEDsupply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>MIC2954</value>
+      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/mic2954.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Micrel</field>
+        <field name="Note">250mA low-dropout regulator</field>
+        <field name="Order Code">2510052</field>
+        <field name="Package">SO-8</field>
+        <field name="Part Number">MIC2954-08YM</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="jakub" part="MIC2954" description="250mA Low-Dropout Regulator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FADFE0B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100pF/50V 0603 ceramic capacitor X7R</field>
+        <field name="Order Code">2627425</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B101K500CT</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAE1374</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>360k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">360kΩ 100mW 0603 resistor</field>
+        <field name="Order Code">2447347</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCWR06X3603FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAE1ED0</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Farnell</field>
+        <field name="Note">20kΩ 100mW 0603 resistor</field>
+        <field name="Order Code">2447293</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCWR06X2002FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAE331A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nF/50V 0603 ceramic capacitor X7R</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAE4204</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4u7/50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Note">4.7µF/50V X7R ceramic capacitor 1206</field>
+        <field name="Order Code">1735545</field>
+        <field name="Package">1206</field>
+        <field name="Part Number">GRM31CR71H475KA12L</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAE5F25</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nf/50V 0603 ceramic capacitor X7R</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAF231F</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Mini-DIN-6</value>
+      <footprint>jakub:MiniDIN6way</footprint>
+      <datasheet>http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Pro Signal</field>
+        <field name="Note">6way mini DIN Connector</field>
+        <field name="Order Code">1280671</field>
+        <field name="Package">Chassis</field>
+        <field name="Part Number">PSG01567</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Connector" part="Mini-DIN-6" description="6-pin Mini-DIN connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAF9EF5</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP4018-502</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Note">7-bit single I2C digital POT with volatile memory</field>
+        <field name="Order Code">1800210</field>
+        <field name="Package">SC70-6</field>
+        <field name="Part Number">MCP4018T-502E/LT</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Potentiometer_Digital" part="MCP4018-xxxxLT" description="Low-Cost 128-Step Volatile I2C Digital Potentiometer, SC-70-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB010B4</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Barrel_Jack_Switch_Pin3Ring</value>
+      <footprint>jakub:2.1mmBarrelJackTop</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Cliff Electronic</field>
+        <field name="Note">2.1mm panel mounting DC socket</field>
+        <field name="Order Code">2353931</field>
+        <field name="Package">Chassis</field>
+        <field name="Part Number">FC681473</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch_Pin3Ring" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB11308</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB13D6B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>82k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">82kΩ 100mW 0603 resistor</field>
+        <field name="Order Code">2447438</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCWR06X8202FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB28AA5</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">20kΩ 100mW 0603 resistor</field>
+        <field name="Order Code">2447293</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCWR06X2002FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB2D53E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>24k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">24kΩ 100mW 0603 resistor</field>
+        <field name="Order Code">2447308</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MCWR06X2402FTL</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBD72C9</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>M2 Mounting Hole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBE101C</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>M2 Mounting Hole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBE16DC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack_Switch_Pin3Ring">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch_Pin3Ring</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Mini-DIN-6">
+      <description>6-pin Mini-DIN connector</description>
+      <docs>http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf</docs>
+      <footprints>
+        <fp>MINI?DIN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Mini-DIN-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Potentiometer_Digital" part="MCP4018-xxxxLT">
+      <description>Low-Cost 128-Step Volatile I2C Digital Potentiometer, SC-70-6</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf</docs>
+      <footprints>
+        <fp>*SC?70*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP4018-xxxxLT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="5" name="W" type="passive"/>
+        <pin num="6" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="MIC2954">
+      <description>250mA Low-Dropout Regulator</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/mic2954.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC2954</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="SNS" type="input"/>
+        <pin num="3" name="SHDN" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="~ERR" type="openCol"/>
+        <pin num="6" name="TAP" type="output"/>
+        <pin num="7" name="FB" type="input"/>
+        <pin num="8" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Potentiometer_Digital">
+      <uri>/usr/share/kicad/library/Potentiometer_Digital.lib</uri>
+    </library>
+    <library logical="jakub">
+      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="R5" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="JP2" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="JP3" pin="3"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="3" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="4" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="5" name="/PWM">
+      <node ref="JP3" pin="2"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="6" name="+24V">
+      <node ref="U1" pin="8"/>
+      <node ref="C1" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="7" name="+5V">
+      <node ref="JP2" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="8" name="/~ERR">
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="JP2" pin="6"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="9" name="Net-(C3-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="12" name="/SDA">
+      <node ref="JP2" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="13" name="/SCL">
+      <node ref="JP2" pin="5"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="14" name="/VREGOUT">
+      <node ref="U1" pin="1"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+  </nets>
+</export>
