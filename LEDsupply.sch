@@ -380,17 +380,6 @@ F 3 "" H 2800 2300 50  0001 C CNN
 	1    2800 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x03_Female JP3
-U 1 1 5FB13D6B
-P 7700 2100
-F 0 "JP3" H 7728 2126 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 7728 2035 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7700 2100 50  0001 C CNN
-F 3 "~" H 7700 2100 50  0001 C CNN
-	1    7700 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 2000 6850 2000
 Wire Wire Line
@@ -603,5 +592,22 @@ F 2 "MountingHole:MountingHole_2.2mm_M2" H 3500 6500 50  0001 C CNN
 F 3 "~" H 3500 6500 50  0001 C CNN
 	1    3500 6500
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female JP3
+U 1 1 5FB13D6B
+P 7700 2100
+F 0 "JP3" H 7728 2126 50  0000 L CNN
+F 1 "KK_3way" H 7728 2035 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 7700 2100 50  0001 C CNN
+F 3 "~" H 7700 2100 50  0001 C CNN
+F 4 "22-27-2031" H 7700 2100 50  0001 C CNN "Part Number"
+F 5 "Molex" H 7700 2100 50  0001 C CNN "Manufacturer"
+F 6 "2.54mm" H 7700 2100 50  0001 C CNN "Package"
+F 7 "Farnell" H 7700 2100 50  0001 C CNN "Supplier"
+F 8 "9731156" H 7700 2100 50  0001 C CNN "Order Code"
+F 9 "KK 254 Wire-to-Board Header" H 7700 2100 50  0001 C CNN "Note"
+	1    7700 2100
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
